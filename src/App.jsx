@@ -2,6 +2,7 @@ import { ThemeProvider } from 'styled-components';
 import GlobalStyles from './components/styles/Global';
 import Header from './components/Header';
 import Intro from './components/Intro';
+import Skills from './components/Skills';
 import Footer from './components/Footer';
 import { StyledPageContainer } from './components/styles/PageContainer.styled';
 import Projects from './components/Projects';
@@ -24,6 +25,7 @@ function App() {
         <GlobalStyles />
         <Header />
         <Intro />
+        <Skills />
         <Projects />
         <Footer />
       </StyledPageContainer>

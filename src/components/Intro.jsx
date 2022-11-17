@@ -1,4 +1,3 @@
-import Skills from './Skills';
 import { StyledIntro, Image, IntroContainer } from './styles/Intro.styled';
 
 function Intro() {
@@ -13,7 +12,6 @@ function Intro() {
         </div>
         <Image src="https://people.com/thmb/JGjxumyykHNuBoeyuELz33P2uHY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(719x309:721x311)/rick-astley-recreation-never-gonna-give-you-up-081922-1-909d277568c34a599c27fa7503ce7a4c.jpg" />
       </IntroContainer>
-      <Skills />
     </StyledIntro>
   );
 }

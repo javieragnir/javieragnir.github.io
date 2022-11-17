@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const StyledSkills = styled.div`
+  margin: 0 80px;
   padding: 20px 0;
   margin-top: 80px;
   margin-bottom: 20px;
@@ -13,18 +14,12 @@ const StyledSkills = styled.div`
 
   & > h3,
   & > p {
+    text-align: center;
     margin: 0 20px;
   }
 
   p {
-    text-align: center;
     font-size: 0.95em;
-  }
-
-  @media (max-width: ${({ theme }) => theme.mobile}) {
-    h3 {
-      text-align: center;
-    }
   }
 `;
 

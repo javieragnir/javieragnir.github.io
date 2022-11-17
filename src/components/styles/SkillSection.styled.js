@@ -6,7 +6,7 @@ export const StyledSkillSection = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px;
 
   h3 {
     margin: 10px 0;

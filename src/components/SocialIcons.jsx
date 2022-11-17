@@ -6,7 +6,7 @@ export default function SocialIcons() {
   return (
     <StyledSocialIcons>
       <li>
-        <a href="https://github.io">
+        <a href="https://github.com/javieragnir/">
           <BsGithub size={30} />
         </a>
       </li>
