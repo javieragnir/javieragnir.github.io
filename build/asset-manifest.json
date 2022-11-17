@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/static/js/main.fa8fae38.js",
+    "static/media/pokemon-trades.png": "/static/media/pokemon-trades.a29ee4174ad12ee3203c.png",
+    "static/media/resume.pdf": "/static/media/resume.5cdf7a7ac83bb9b5463b.pdf",
+    "index.html": "/index.html",
+    "main.fa8fae38.js.map": "/static/js/main.fa8fae38.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.fa8fae38.js"
+  ]
+}
