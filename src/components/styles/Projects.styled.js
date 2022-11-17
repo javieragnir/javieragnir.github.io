@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const StyledProjects = styled.div`
   padding: 0px 80px 40px;
   margin-top: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   text-align: center;
   background-color: ${({ theme }) => theme.colors.white};
 

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 const StyledSkills = styled.div`
-  margin: 0 80px;
   padding: 20px 0;
   margin-top: 80px;
   margin-bottom: 20px;
@@ -11,6 +10,8 @@ const StyledSkills = styled.div`
   justify-content: center;
   gap: 20px;
   border-radius: 8px;
+  width: 100%;
+  max-width: 1000px;
 
   & > h3,
   & > p {
@@ -22,5 +23,12 @@ const StyledSkills = styled.div`
     font-size: 0.95em;
   }
 `;
+
+export const SkillsContainer = styled.div`
+  margin: 0 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
 
 export default StyledSkills;
