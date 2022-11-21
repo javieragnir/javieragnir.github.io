@@ -10,7 +10,7 @@ export default function Skills() {
   return (
     <SkillsContainer>
       <StyledSkills>
-        <h3>I have experience with:</h3>
+        <h2>I have experience with:</h2>
         <Flex>
           <SkillSection
             iconComponent={<FiMonitor size={30} />}

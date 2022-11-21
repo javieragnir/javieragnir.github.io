@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const StyledIntro = styled.div`
   padding: 80px;
-  background-color: ${({ theme }) => theme.colors.white};
   margin-top: 40px;
+  margin-bottom: 40px;
 
   h2 {
     margin-bottom: 10px;

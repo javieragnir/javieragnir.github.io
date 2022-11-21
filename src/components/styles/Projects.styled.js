@@ -1,13 +1,20 @@
 import styled from 'styled-components';
 
 export const StyledProjects = styled.div`
-  padding: 0px 80px 40px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding: 80px 80px 40px;
   text-align: center;
-  background-color: ${({ theme }) => theme.colors.white};
+  background-color: ${({ theme }) => theme.colors.projects};
+  
+  h1,
+  p {
+    color: ${({ theme }) => theme.colors.white};
+  }
 
-  h2 {
+  p {
+    margin-bottom: 70px;
+  }
+
+  h1 {
     margin-bottom: 10px;
   }
 `;

@@ -21,5 +21,11 @@ export const StyledSocialIcons = styled.div`
 
   svg {
     fill: ${({ theme }) => theme.colors.white};
+    transition: 0.25s;
+
+    &:hover,
+    &:focus {
+    fill: #cccccc;
+    }
   }
 `;

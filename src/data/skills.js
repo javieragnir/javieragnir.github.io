@@ -7,5 +7,5 @@ export const backendSkills = [
 ];
 
 export const otherSkills = [
-  'JavaScript', 'Python', 'GitHub', 'REST APIs', 'GraphQL',
+  'JavaScript', 'Python', 'Git', 'REST APIs', 'GraphQL',
 ];

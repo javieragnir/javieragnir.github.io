@@ -6,12 +6,14 @@ import Skills from './components/Skills';
 import Footer from './components/Footer';
 import { StyledPageContainer } from './components/styles/PageContainer.styled';
 import Projects from './components/Projects';
+import FinalWords from './components/FinalWords';
 
 const theme = {
   colors: {
     header: '#d64550',
     body: '#fdfdfd',
-    projects: '#0496ff',
+    skills: '#0496ff',
+    projects: '#2b59c3',
     footer: '#1a1a1a',
     white: '#fdfdfd',
   },
@@ -27,6 +29,7 @@ function App() {
         <Intro />
         <Skills />
         <Projects />
+        <FinalWords />
         <Footer />
       </StyledPageContainer>
     </ThemeProvider>
