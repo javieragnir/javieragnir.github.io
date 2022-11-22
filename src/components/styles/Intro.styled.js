@@ -34,3 +34,11 @@ export const Image = styled.img`
     margin: 40px 0 30px;
   }
 `;
+
+export const IntroText = styled.div`
+  max-width: 500px;
+
+  & > h1 {
+    margin-bottom: 10px;
+  }
+`

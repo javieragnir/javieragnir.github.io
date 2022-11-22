@@ -10,7 +10,7 @@ export const StyledProjects = styled.div`
     color: ${({ theme }) => theme.colors.white};
   }
 
-  p {
+  & > p {
     margin-bottom: 70px;
   }
 
