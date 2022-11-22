@@ -24,7 +24,7 @@ export const Overlay = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  opacity: 1;
+  opacity: 0;
   transition: 0.25s;
 
   &:hover {
