@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.bda2fba5.js",
+    "main.js": "/static/js/main.f653566b.js",
     "static/media/myself.jpg": "/static/media/myself.9723a6738428b897df9d.jpg",
     "static/media/resume.pdf": "/static/media/resume.9189f1413a025530415b.pdf",
     "static/media/pokemon-trades.png": "/static/media/pokemon-trades.a29ee4174ad12ee3203c.png",
     "index.html": "/index.html",
-    "main.bda2fba5.js.map": "/static/js/main.bda2fba5.js.map"
+    "main.f653566b.js.map": "/static/js/main.f653566b.js.map"
   },
   "entrypoints": [
-    "static/js/main.bda2fba5.js"
+    "static/js/main.f653566b.js"
   ]
 }
